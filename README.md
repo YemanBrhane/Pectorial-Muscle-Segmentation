@@ -1,5 +1,5 @@
 # Pectorial-Muscle-Segmentation
-The goal of the project was to segment pectoral musle of mamaogram images. Impalementation is done in C++ using QT and OpenCv.
+The goal of the project was to segment pectoral musle of mamaogram images. Impalementation was done in C++ using QT and OpenCv.
 
 ## Softwares required
 - Qt 5.7
