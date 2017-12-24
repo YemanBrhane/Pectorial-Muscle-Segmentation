@@ -11,7 +11,7 @@ int main(int argc, char *argv[]) {
     Mat mask;
     Mat truth;
 
-    string dataset_path = "D:/MAIA_Course/Second-Semester/AIA/Projects/dataset/";
+    string dataset_path = "../dataset/";
 
    int test = 1;
    /**
@@ -33,11 +33,11 @@ int main(int argc, char *argv[]) {
         return -1;
         }
 
-        image = imread("D:/MAIA_Course/Second-Semester/AIA/Projects/dataset/images/15.png",CV_LOAD_IMAGE_UNCHANGED);
+        image = imread("../dataset/images/15.png",CV_LOAD_IMAGE_UNCHANGED);
 
-        truth = imread("D:/MAIA_Course/Second-Semester/AIA/Projects/dataset/groundtruth/15.png", CV_LOAD_IMAGE_GRAYSCALE);
+        truth = imread("../dataset/groundtruth/15.png", CV_LOAD_IMAGE_GRAYSCALE);
 
-        mask = imread("D:/MAIA_Course/Second-Semester/AIA/Projects/dataset/mask/15.png", CV_LOAD_IMAGE_GRAYSCALE);
+        mask = imread("../dataset/mask/15.png", CV_LOAD_IMAGE_GRAYSCALE);
 
         double sigma = 54.0;
         w.lowThreshold = 2.2;
